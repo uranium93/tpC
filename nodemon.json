@@ -1,0 +1,6 @@
+{
+    "watch": ["server", "config"],
+    "ignore": ["src/**/*.spec.ts", "sessions/"],
+    "exec": "tsc --project tsconfig.server.json && node ./dist/server/index.js",
+    "ext": "ts"
+}

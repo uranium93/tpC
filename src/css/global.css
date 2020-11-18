@@ -1,0 +1,14 @@
+button:focus {
+    outline: none;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+
+a:hover {
+    color: #2c3ccb;
+}
